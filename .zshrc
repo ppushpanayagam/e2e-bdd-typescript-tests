@@ -1,0 +1,1 @@
+export NODE_OPTIONS = '--require ts-node/register'

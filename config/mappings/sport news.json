@@ -1,0 +1,5 @@
+{
+  "sport news header" : "div.h1-page-last-updated > h1",
+  "premier league": "div.competitionTable_2Shs1.displayMode-extraSmall_3otUd > table"
+
+}

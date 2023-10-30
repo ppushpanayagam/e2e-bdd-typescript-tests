@@ -1,0 +1,35 @@
+{
+  "name": "selenium_typescript_e2e_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "transpile": "rimraf dist && babel --extensions .ts --out-dir dist src",
+    "cucumber-compile": "yarn transpile && cucumber-js",
+    "cucumber": "COMMON_CONFIG_FILE=env/common.env yarn cucumber-compile",
+    "precucumber": "rimraf reports && mkdir reports && echo {} > reports/report.json",
+    "postcucumber": "COMMON_CONFIG_FILE=env/common.env ts-node ./src/reporter/cucumber-report.ts"
+  },
+  "author": "Pushparaj Pushpanayagam",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.5.1",
+    "@types/node": "^20.8.0",
+    "chai": "^4.3.10",
+    "chromedriver": "^117.0.3",
+    "selenium-webdriver": "^4.13.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "@babel/preset-typescript": "^7.23.2",
+    "cucumber-html-reporter": "^7.1.1",
+    "dotenv": "^16.3.1",
+    "g": "^2.0.1",
+    "geckodriver": "^4.2.1",
+    "nodemon": "^3.0.1"
+  }
+}

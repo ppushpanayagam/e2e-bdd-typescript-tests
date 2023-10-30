@@ -1,0 +1,10 @@
+{
+  "video title": "#vjs_video_3 > div.vjs-title > div > div",
+  "video player": "[id='vjs_video_3_html5_api']",
+  "forward arrow": "div.vjs-control-bar > div.mol-skip-control.vjs-control",
+  "next video": "#vjs_video_3 > div.vjs-title > div > div",
+  "next video title": "#vjs_video_3 > div.vjs-title > div > div",
+  "back arrow": "div.vjs-control-bar > div.mol-previous-control.vjs-control",
+  "mute": "div.vjs-volume-menu-button.vjs-menu-button.vjs-control.vjs-vol-3",
+  "unmute": "#vjs_video_3 > div.vjs-control-bar > div.vjs-volume-menu-button.vjs-menu-button.vjs-control.vjs-vol-0"
+}

@@ -1,0 +1,490 @@
+[
+  {
+    "description": "    Feature User land on the Home page",
+    "elements": [
+      {
+        "description": "",
+        "id": "navigate-to-home-page;verify-daily-mail-home-page",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Verify Daily Mail Home page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2777020957
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the \"home\" page",
+            "match": {
+              "location": "src/step-definitions/mailonlineTests.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2896050250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I am directed to \"home\" page",
+            "match": {
+              "location": "src/step-definitions/mailonlineTests.ts:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7492665
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 58268208
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "navigate-to-home-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Navigate to Home Page",
+    "tags": [],
+    "uri": "src/features/home-page.feature"
+  },
+  {
+    "description": "Feature Verify Premier league standing table data",
+    "elements": [
+      {
+        "description": "",
+        "id": "navigate-to-home-page;verify-premier-league-standing-table",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Verify Premier league standing table",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3337548958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the \"home\" page",
+            "match": {
+              "location": "src/step-definitions/mailonlineTests.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2302886582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I am directed to \"home\" page",
+            "match": {
+              "location": "src/step-definitions/mailonlineTests.ts:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15994041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click the \"got it\" button",
+            "match": {
+              "location": "src/step-definitions/mailonlineTests.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 565398749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click the \"sport\" button",
+            "match": {
+              "location": "src/step-definitions/mailonlineTests.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11459618834
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I am directed to \"sport news\" page",
+            "match": {
+              "location": "src/step-definitions/mailonlineTests.ts:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24182000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the \"sport news header\" should contain the text \"Sport News\"",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 996273624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I scroll to the \"premier league\" table",
+            "match": {
+              "location": "src/step-definitions/mailonlineTests.ts:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2591979709
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "1",
+                      "Tottenham",
+                      "10",
+                      "26"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the \"premier league\" table should equal the following:",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-table-value.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 577061790
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "1",
+                      "West Ham",
+                      "10",
+                      "23"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "2",
+                      "Burnley",
+                      "10",
+                      "21"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 19,
+            "name": "the \"premier league\" table should not equal the following:",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-table-value.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 263244250
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 449539166
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "navigate-to-home-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Navigate to Home Page",
+    "tags": [],
+    "uri": "src/features/sports-page.feature"
+  },
+  {
+    "description": "    Feature Verify Video player functionalities",
+    "elements": [
+      {
+        "description": "",
+        "id": "video-player-functionalities;verify-video-player",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify Video Player",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3448490167
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am on the \"video\" page",
+            "match": {
+              "location": "src/step-definitions/mailonlineTests.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1631235500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I am directed to \"video\" page",
+            "match": {
+              "location": "src/step-definitions/mailonlineTests.ts:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6797334
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click the \"got it\" button",
+            "match": {
+              "location": "src/step-definitions/mailonlineTests.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 190670000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I scroll to the \"video player\" screen",
+            "match": {
+              "location": "src/step-definitions/mailonlineTests.ts:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1546265667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click the \"video player\" screen",
+            "match": {
+              "location": "src/step-definitions/mailonlineTests.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10519318833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click the \"video player\" screen",
+            "match": {
+              "location": "src/step-definitions/mailonlineTests.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2610001291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click the \"forward arrow\" button",
+            "match": {
+              "location": "src/step-definitions/mailonlineTests.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 249967500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I scroll to the \"next video title\" screen",
+            "match": {
+              "location": "src/step-definitions/mailonlineTests.ts:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2184126084
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the \"next video title\" should contain the text \"Matthew Perry posts The Batman videos days before passing away\"",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51824374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I scroll to the \"back arrow\" screen",
+            "match": {
+              "location": "src/step-definitions/mailonlineTests.ts:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1532946416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I click the \"mute\" button",
+            "match": {
+              "location": "src/step-definitions/mailonlineTests.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 282508832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I click the \"unmute\" button",
+            "match": {
+              "location": "src/step-definitions/mailonlineTests.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 492877082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the \"next video\" played automatically",
+            "match": {
+              "location": "src/step-definitions/mailonlineTests.ts:112"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18875584
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the \"next video title\" should contain the text \"Matthew Perry posts The Batman videos days before passing away\"",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63238334
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 360303916
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "video-player-functionalities",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Video Player functionalities",
+    "tags": [],
+    "uri": "src/features/video-page.feature"
+  }
+]

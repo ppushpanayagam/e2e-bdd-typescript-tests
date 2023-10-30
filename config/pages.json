@@ -1,0 +1,14 @@
+{
+  "home" : {
+    "route" : "/home/index.html",
+    "regex" : "^/home/index.html$"
+  },
+  "video" : {
+    "route" : "/video/index.html",
+    "regex" : "^/video/index.html"
+  },
+  "sport news" : {
+    "route" : "/sport/index.html",
+    "regex" : "^/sport/index.html$"
+  }
+}
