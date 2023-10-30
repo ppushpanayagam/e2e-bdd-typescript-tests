@@ -1,4 +1,4 @@
-Feature: Navigate to Home Page
+Feature: Navigate to Sport Page
 
 Feature Verify Premier league standing table data
 
